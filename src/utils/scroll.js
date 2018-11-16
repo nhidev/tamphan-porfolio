@@ -1,7 +1,8 @@
+if (typeof window !== 'undefined') {
 const isSmoothScrollSupported = ((document || {}).documentElement || {}).style
   ? 'scrollBehavior' in document.documentElement.style
   : false;
-
+}
 export const toTop = () => {
   if (isSmoothScrollSupported) {
     window.scrollTo({
