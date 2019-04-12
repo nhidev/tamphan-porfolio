@@ -10,7 +10,7 @@ nav {
   z-index: 999;
 
   @include breakpoint-small-down {
-    height: 4rem;
+    height: 5rem;
   }
 
   .magic-wand {

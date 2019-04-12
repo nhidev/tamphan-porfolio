@@ -20,7 +20,7 @@
     text-align: center;
 
     @include breakpoint-small-down {
-      padding: 4.25rem 1.5rem 1rem;
+      padding: 1rem 1.5rem 4rem;
     }
 
     .intro-wrapper {
@@ -29,7 +29,7 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      text-align: left;
+
       .intro-heading {
         font-size: 1.5rem;
         font-weight: bold;
