@@ -1,6 +1,6 @@
 import React from 'react';
 import ScrollToNext from './scroll-next';
-
+import resume from "../images/resume.pdf";
 import './../styles/about.scss';
 
 const AboutMe = () => {
@@ -8,7 +8,6 @@ const AboutMe = () => {
   return (
     <div className="about-page" >
       <div className="content-grid">
-        {/* <h1>About</h1> */}
         <div className="about-wrapper">
           <div className="about-content">
           <p >Hello, my name is <span className="highlight">Tam Phan.</span><br/>
@@ -17,12 +16,11 @@ const AboutMe = () => {
           </div>
           <div className='info'>
             <div className='contact'>
-            {/* <h3>Contact:</h3> */}
             <p>0933 532 059</p>
             <p>ptntam@gmail.com</p>
             </div>    
             <div className="download">
-            <a href="./images/resume.pdf" target="_blank">Get my CV</a>
+            <a href={resume} target="_blank">Get my CV</a>
           </div>
           </div>
         </div>
