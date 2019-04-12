@@ -19,12 +19,12 @@ class Projects extends Component {
                   
               return (
                 <div className="project" key={project.name}>  
-                <a
+                {/* <a
                   href={project.url}
                   key={project.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                >
+                > */}
                    <div className='project__image'>
                     <Img
                       title={project.name}
@@ -33,16 +33,16 @@ class Projects extends Component {
                       className="card-img_src center-block"
                     />
                   </div>
-                  <div className='project__details'>
+                  {/* <div className='project__details'>
                     <div className='project__title'>
                         {project.name}
                     </div>
                     <div className='project__desc'>
                     {project.description}
                     </div>     
-                   </div>
+                  </div> */}
                  
-                </a>
+                {/* </a> */}
                 </div>
               );
             })}

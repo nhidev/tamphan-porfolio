@@ -3,70 +3,28 @@
     "name": "TravelPass",
     "type": "front-end",
     "description": "Agency website using Wordpress CMS.",
-    "img": "travelpass.jpg",
+    "img": "project-01.jpg",
     "url": "https://travelpass.vn"
   },
   {
     "name": "ThapKim",
     "type": "front-end",
     "description": "Corporation website using on Wordpress CMS",
-    "img": "thapkim.jpg",
+    "img": "project-02.jpg",
     "url": "http://thapkim.com/en/"
   },
   {
     "name": "Jevith",
     "type": "front-end",
     "description": "B2B website using Aesir Ecommerce and Joomla CMS.",
-    "img": "jevith.jpg",
+    "img": "project-03.jpg",
     "url": "http://www.jevith.dk"
   },
   {
     "name": "EAST Electricity",
     "type": "front-end",
     "description": "Multiple language website using Joomla CMS.",
-    "img": "east.jpg",
+    "img": "project-04.jpg",
     "url": "http://east-engineering.net"
-  },
-  {
-    "name": "Halo Design",
-    "type": "front-end",
-    "description": "A coporation website using Joomla CMS.",
-    "img": "halo.jpg",
-    "url": "http://halodesign.com.vn.web1.redhost.vn"
-  },
-  {
-    "name": "KIRARA INSURANCE SERVICE",
-    "type": "front-end",
-    "description": "Undertook full-site renewal of KIRARA INSURANCE SERVICE",
-    "img": "kirara.jpg",
-    "url": "http://www.ki-ra-ra.jp/consultant_report/"
-  },
-  {
-    "name": "Mitsubishi Electric",
-    "type": "front-end",
-    "description": "Created 'from ME', a new category designated for a corporate PR",
-    "img": "mitsubishi.jpg",
-    "url": "http://www.mitsubishielectric.co.jp/me/from5c/"
-  },
-  {
-    "name": "1PAC",
-    "type": "front-end",
-    "description": "Created Hiring pages.",
-    "img": "1pac.jpg",
-    "url": "http://www.1pac.vn/jp/intern"
-  },
-  {
-    "name": "LeBaoMinh",
-    "type": "front-end",
-    "description": "Coporation site using Wordpress..",
-    "img": "lebaominh.jpg",
-    "url": "https://lebaominh.vn"
-  },
-  {
-    "name": "Vuinhiepanh",
-    "type": "front-end",
-    "description": "A new website designated for a marketing using Wordpress",
-    "img": "vuinhiepanh.jpg",
-    "url": "http://vuinhiepanh.com/"
   }
 ]

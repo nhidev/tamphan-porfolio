@@ -22,7 +22,7 @@ const AboutMe = () => {
             <p>ptntam@gmail.com</p>
             </div>    
             <div className="download">
-            <a href="./images/resume.pdf" download>Get my CV</a>
+            <a href="./images/resume.pdf" target="_blank">Get my CV</a>
           </div>
           </div>
         </div>
