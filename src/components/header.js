@@ -70,7 +70,7 @@ class Header extends Component {
           </div>
           <div
             className="menu__item"
-            onClick={(e) => this.scrollToPage('#projects')}
+            onClick={(e) => this.scrollToPage('#experience')}
           >
             Experience
           </div>
