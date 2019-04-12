@@ -10,7 +10,6 @@ class Projects extends Component {
     return (
       <section id="projects" className="projects">
         <div className="content-grid">
-        <h1>Portfolio</h1>  
           <div className="project-wrapper">
             {projectList.map(project => {
                  const image = projectImgs.find(n => {

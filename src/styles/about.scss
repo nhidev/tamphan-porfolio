@@ -1,11 +1,9 @@
 @import 'breakpoints';
+@import 'variables';
 
 .about-page {
-  -webkit-clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%);
-  clip-path: polygon(0 0, 20% 5%, 100% 0, 100% 100%, 80% 95%, 0 100%); 
-  background: #fafafa url('./../images/about.jpg') top center no-repeat;
-  background-size: cover;
-  padding-top: 2rem;
+  color: white;
+  background: black;
   min-height: 100vh;
   display: flex;
 	flex: 0 1 auto;
@@ -17,7 +15,7 @@
   }
 
   h1 {
-    padding: 1rem 0;
+    padding: 2rem 0;
     font-size: 3rem;
   }
 
@@ -25,16 +23,49 @@
     flex: auto;
   }
 
+  .scroll-to-next .svg {
+    fill: $white;
+  }
+
   .about-wrapper {
-    
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 95vh;
+      
+      .download {
+        padding: 0.25rem;
+        a{
+          color: $white;
+          padding: 5px 10px;
+          border: 3px solid $border-color;
+        }
+      } 
+      
+      .info {
+        font-size: 0.875rem;
+        line-height: 1.5rem;  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .contact {
+
+        h3 {
+          font-weight: bold;
+          margin-bottom: 1rem;
+        }
+          display: flex;
+          flex-direction: column;
+          margin-right: 2rem;
+          text-align: right;
+        }
+      }
+
     .about-content {
       font-size: 0.875rem;
       line-height: 1.5rem;
       
-      @include breakpoint-small-down {
-        font-size: 1rem;
-      }
-
       p {
         font-weight: 300;
         padding: 0.5rem 0;

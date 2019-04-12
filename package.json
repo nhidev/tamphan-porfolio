@@ -20,7 +20,7 @@
     "node-sass": "^4.9.0",
     "prettier": "1.15.2",
     "react": "^16.5.1",
-    "react-dom": "^16.5.1",
+    "react-dom": "npm:@hot-loader/react-dom",
     "react-helmet": "^5.2.0",
     "reactstrap": "^6.5.0"
   },
@@ -37,6 +37,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nhidev/gatsby-portfolio.git"
+    "url": "https://github.com/nhidev/tamphan-porfolio.git"
   }
 }

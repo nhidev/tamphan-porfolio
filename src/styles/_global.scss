@@ -46,6 +46,15 @@
        url('../libs/fonts/reem-kufi-v4-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* ostrich-sans */
+@font-face {
+  font-family: 'Ostrich Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ostrich Sans'), local('Ostrich-Sans'),
+       url('../libs/fonts/ostrich-sans-inline-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 html {
 	font-size: 12px;
 
@@ -66,10 +75,6 @@ html {
   }
 }
 
-body {
-	background: $primary-color;
-	padding: 0.85rem;
-}
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 	font-family: "Baksheesh Regular",sans-serif;
 	font-weight: 300;

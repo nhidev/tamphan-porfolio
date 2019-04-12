@@ -1,10 +1,11 @@
 import React from "react";
+import Header from '../components/header';
 import Cover from "../components/cover";
 import AboutMe from "../components/about-me";
 import Projects from "../components/projects";
+import Experience from "../components/experience";
 import ScrollTop from "../components/scroll-top";
 import Footer from "../components/footer";
-
 import { Helmet } from "react-helmet";
 import favicon from "../images/favicon.ico";
 
@@ -27,8 +28,10 @@ const IndexPage = ({ data }) => {
         <meta name="description" content={metaDescr} />
         <link rel="icon" type="/image/png" href={favicon} />
       </Helmet>
-        <Cover />
+        <Header logoImg={data.logoImg}/>
+        <Cover/>
         <AboutMe />
+        <Experience/>
         <Projects projectImgs={projectImgData} />
         <ScrollTop />
         <Footer />
@@ -46,6 +49,11 @@ export const query = graphql`
       }
     }
 
+    logoImg: imageSharp(id: { regex: "/Maribel/" }) {
+      sizes(maxWidth: 420) {
+        ...GatsbyImageSharpSizes
+      }
+    }
 
     ProjectImgs: allFile(
       filter: { relativePath: { regex: "/projects/.*.jpg/" } }

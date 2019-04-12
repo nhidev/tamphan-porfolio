@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'Nhidev Portfolio',
+    title: 'TamPhan Portfolio',
     description:
     "Enjoying a good coding challenge, creating digital magic and elevate user experience to the next level.",
-  siteUrl: "https://nhidev.netlify.com",
-  author: "nhidev"
+  siteUrl: "https://tamphan.netlify.com",
+  author: "tamphan"
 
   },
   plugins: [
